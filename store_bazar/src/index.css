@@ -1,0 +1,39 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  color: #000;
+  background-color: #e5e8e8;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.col-md-6 {
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Agrega estilos en tu archivo de estilos CSS */
+.star-rating {
+  font-size: 24px;
+}
+
+.star-filled {
+  color: gold; /* o el color que desees para las estrellas llenas */
+}
+
+.star-empty {
+  color: #ccc; /* o el color que desees para las estrellas vacías */
+}
